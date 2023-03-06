@@ -13,4 +13,8 @@ Cubilia torquent sociis tempor sed tempus pharetra primis magna cursus, consequa
  Ultrices nunc est litora nam proin vel vivamus enim dis, a rhoncus cursus tempor lacinia quis potenti egestas pellentesque, 
 fusce tincidunt curabitur auctor fermentum eleifend accumsan congue.
 modificando remoto1
+<<<<<<< HEAD
 modificando local1
+=======
+modificando remoto2
+>>>>>>> 2e2034e43d09b8a1f1a20f1a882dfdcd6f34f6bf
