@@ -47,5 +47,27 @@ public class ejercicio_2 {
 				System.out.println("Palabra Codificada: " + Palabra );
 				
 				
+				
+				
+				for(int indice =0; indice<Palabra.length(); indice++)
+					
+				{	
+					
+					char Caracter =Palabra.charAt(indice);
+
+					for(int i =0; i<abecedario.length; i++)
+					{
+						
+						if(Caracter==abecedario[i] && ((i + Desplaza)<27))
+						{
+							String c= Caracter + "";
+							String s = abecedario[i-Desplaza] +"";
+							Palabra=Palabra.replaceFirst(c, s);
+						}
+					}
+					
+				}
+				
+				System.out.println("Palabra Decoodificada: " + Palabra );
 			}
 }	
